@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MANABU Learning Center</title>
+        <link rel="stylesheet" href="second.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="second.html"><img src="images/space.png" alt="logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="second.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="programs.html">PROGRAMS</a></li>
+                        <li><a href="contact.html">CONTACTS</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1 class="about-heading">About Us</h1>
+        </section>
+
+        <!------About Us Webpage-->
+        <section class="about-us">
+            <div class="layout">
+                <div class="about-col">
+                    <h1>The No. 1 Learning Center in the Philippines</h1>
+                    <div class="info">
+                        <img src="https://kabayanremit.com/blog/wp-content/uploads/2021/04/understanding-the-Philippine-education-system.jpg" alt="model">
+                    </div>
+                        <p>Welcome to Manabu Learning Center, where education meets inspiration! We are dedicated to fostering a dynamic learning environment where students of all ages can thrive academically and personally.</p>
+                        <p>At Manabu, we believe in the transformative power of education. Our mission is to empower students to reach their full potential by providing comprehensive learning programs tailored to their individual needs. Whether it's mastering the fundamentals of English, exploring the wonders of science, or delving into the complexities of mathematics, we're here to guide and support every step of the way.</p>
+                        <p>Our dedicated team of educators brings expertise and enthusiasm to every lesson, ensuring that students receive personalized attention and support. Through innovative teaching methods, hands-on experiences, and a curriculum designed to inspire curiosity, we aim to instill a lifelong love for learning in each of our students. Driven by a passion for excellence, our team of experienced educators is committed to nurturing a love for learning and fostering critical thinking skills that will last a lifetime. With modern facilities, innovative teaching methods, and a supportive community, we create an environment where curiosity thrives, knowledge grows, and dreams take flight.</p>
+                        <p>Join us at Manabu Learning Center and embark on an educational journey like no other. Together, let's unlock the endless possibilities of learning and discover the joy of intellectual discovery. For inquiries or to schedule a visit, please don't hesitate to contact us. We look forward to welcoming you to our vibrant learning community!</p>
+                            <a href="" class="button red-btn">EXPLORE NOW</a>   
+                </div>
+                </div>
+        </section>
+
+<!------Footer-->
+<section class="footer">
+    <h1>Reach Out</h1>
+    <p>Have questions or want to learn more about Manabu Learning Center? <br> We're here to help! Reach out to us using the contact information below:</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-youtube-play"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p>Copyright 2024 Asia Co., Nha. All rights reserved.</p>
+</section>
+
+
+
+
+<!------JavaScript fpr Toggle Menu------>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+    </body>
+</html>
